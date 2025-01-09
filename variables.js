@@ -12,6 +12,8 @@ Prefer not to use var because of block scope and functional scope
 
 */
 
+
+
 accountEmail = "mayor@google.com"
 accountPassword="1234567"
 accountCity = "Mumbai"
