@@ -17,6 +17,7 @@ console.log("Undefined: " + job);  // job is not assigned yet, so it will output
 // Null
 let address = null;
 console.log("Null: " + address);
+console.log("The type of address is "+typeof(address))
 
 // Symbol
 let uniqueID = Symbol("id");
@@ -28,3 +29,10 @@ console.log("BigInt: " + largeNumber);
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+console.log(typeof(Nan));
+
+let a=10;
+let b=20;
+
+console.log(`Sum of ${a} and ${b} is ${a+b}`);
